@@ -1,4 +1,4 @@
-package se.patrikbergman.java.mapping.orika;
+package se.patrikbergman.java.mapping.orika.lombok;
 
 import lombok.*;
 
@@ -8,8 +8,8 @@ import lombok.*;
 @AllArgsConstructor(access = AccessLevel.PUBLIC)
 @Builder
 @Value
-public class BandDto {
+public class Band {
     private String name;
-    private String biography;
-    private int rockScore;
+    private String description;
+    private int rockFactor;
 }

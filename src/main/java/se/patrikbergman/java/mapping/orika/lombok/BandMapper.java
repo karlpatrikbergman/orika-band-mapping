@@ -1,4 +1,4 @@
-package se.patrikbergman.java.mapping.orika;
+package se.patrikbergman.java.mapping.orika.lombok;
 
 import ma.glasnost.orika.BoundMapperFacade;
 import ma.glasnost.orika.MapperFactory;
